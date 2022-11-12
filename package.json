@@ -1,0 +1,31 @@
+{
+  "name": "video-mis-admin",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^6.1.0",
+    "ant-design-vue": "^3.2.10",
+    "axios": "^0.27.2",
+    "pinia": "^2.0.15",
+    "screenfull": "^6.0.2",
+    "vue": "^3.2.25",
+    "vue-fullscreen": "^3.1.1",
+    "vue-router": "^4.1.2",
+    "vue-screenfull": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "echarts": "^5.4.0",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
+  }
+}
